@@ -5,9 +5,10 @@
 	<groupId>POMSeries</groupId>
 	<artifactId>POMSeries</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
 	<name>POMSeries</name>
-	<!-- FIXME change it to the project's website -->
-	<url>http://www.example.com</url>
+	<url>http://www.opencart.com</url>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
