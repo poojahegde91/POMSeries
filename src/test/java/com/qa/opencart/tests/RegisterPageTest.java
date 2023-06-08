@@ -19,7 +19,10 @@ public class RegisterPageTest extends BaseTest {
 	}
 
 	public String getRandomEmailID() {
-		return "testautomation" + System.currentTimeMillis() + "@gmail.com";
+		String email = null;
+		email = "testautomation" + System.currentTimeMillis() + "@gmail.com";
+		System.out.println(email);
+		return email;
 //		return "testautomation" + UUID.randomUUID() + "@gmail.com";
 	}
 
@@ -45,6 +48,7 @@ public class RegisterPageTest extends BaseTest {
 		String actRegSuccessMessage = registerPage.registerUser(firstName, lastName, getRandomEmailID(), telephone,
 				password, subscribe);
 		Assert.assertEquals(actRegSuccessMessage, AppConstants.USER_REG_SUCCESS_MESSG);
+		System.out.println(password);
 	}
 
 }
