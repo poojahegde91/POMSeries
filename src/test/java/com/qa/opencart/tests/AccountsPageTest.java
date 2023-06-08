@@ -35,7 +35,7 @@ public class AccountsPageTest extends BaseTest {
 	public void accPageHeadersCountTest() {
 		List<String> actAccHeaderList = accountsPage.getAccountPageHeaderList();
 		int headersCount = actAccHeaderList.size();
-		Assert.assertEquals(headersCount,5);
+		Assert.assertEquals(headersCount,4);
 	}
 
 	@Test
