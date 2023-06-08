@@ -13,6 +13,7 @@ public class LoginPageNegativeTest extends BaseTest {
 			{ "auto123@gmail.com", "123456" }, 
 			{ "test@gmail.com", "1232548" }, 
 			{ "auto", "test" },
+			{ "@gmail.com", "" },
 			{ " ", " " }
 
 		};
