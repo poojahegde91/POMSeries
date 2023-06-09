@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="OpenCart Regression Suite" verbose="4" thread-count="2" parallel="tests">
+<suite name="OpenCart Sanity Suite" verbose="4" thread-count="2" parallel="tests">
 	
 	<listeners>
 		<listener class-name="com.qa.opencart.listeners.ExtentReportListener"/>

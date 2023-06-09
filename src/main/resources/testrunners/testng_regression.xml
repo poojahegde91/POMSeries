@@ -9,12 +9,12 @@
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
 	</test>-->
-	<!--<test name="Accounts Page Test">
+	<test name="Accounts Page Test">
 		<parameter name="browser" value="edge" />
 		<classes>
 			<class name="com.qa.opencart.tests.AccountsPageTest" />
 		</classes>
-	</test>-->
+	</test>
 <!--	<test name="Search Test">
 		<parameter name="browser" value="null" />
 		<classes>
@@ -27,10 +27,10 @@
 			<class name="com.qa.opencart.tests.ProductPageInfoTest" />
 		</classes>
 	</test>-->
-	<test name="Registration Page Test">
+	<!--<test name="Registration Page Test">
 		<parameter name="browser" value="edge" />
 		<classes>
 			<class name="com.qa.opencart.tests.RegisterPageTest" />
 		</classes>
-	</test>
+	</test>-->
 </suite>
