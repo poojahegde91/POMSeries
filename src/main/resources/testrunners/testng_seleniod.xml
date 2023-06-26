@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="OpenCart Sanity Suite" verbose="4" thread-count="1" parallel="tests">
+<suite name="OpenCart Regression Suite" verbose="4" thread-count="2" parallel="tests">
 	
 	<listeners>
 		<listener class-name="com.qa.opencart.listeners.ExtentReportListener"/>
@@ -9,26 +9,30 @@
 		<listener class-name="com.qa.opencart.listeners.AnnotationTransformer"></listener>
 	</listeners>
 	
-<!--	<test name="Login Page Test">
+	<test name="Login Page Test">
 		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="113.0" />
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
-	</test>-->
+	</test>
 	<test name="Accounts Page Test">
-		<parameter name="browser" value="edge" />
+		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="90.0" />
 		<classes>
 			<class name="com.qa.opencart.tests.AccountsPageTest" />
 		</classes>
 	</test>
-	<!--<test name="Search Test">
+	<test name="Search Test">
 		<parameter name="browser" value="chrome" />
+		<parameter name="browserversion" value="111.0" />
 		<classes>
 			<class name="com.qa.opencart.tests.SearchTest" />
 		</classes>
 	</test>
-	<test name="Product Info Test">
-		<parameter name="browser" value="chrome" />
+	<!--<test name="Product Info Test">
+		<parameter name="browser" value="firefox" />
+		<parameter name="browserversion" value="83.0" />
 		<classes>
 			<class name="com.qa.opencart.tests.ProductPageInfoTest" />
 		</classes>
